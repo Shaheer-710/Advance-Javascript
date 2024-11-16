@@ -1,0 +1,61 @@
+// Q1
+
+// // let bioObj = {
+// //     Name: 'Shaheer',
+// //     age: 14,
+// //     education: 'Grade 9',
+// //     phonenumber: 923362009744,
+// //     email: 'shaheer7w@gmail.com'
+// // }
+
+// // let biodata =`
+// //   <p>Name:${bioObj.Name}</p> <br>
+// //   <p>Age:${bioObj.age}</p>  <br>
+// //    <p>Education:${bioObj.education}</p> <br>
+// //     <p>Phone:${bioObj.phonenumber}</p> <br>
+// //      <p>email:<a>${bioObj.email}</a></p> <br>
+// // `
+
+// // document.write(biodata)
+
+
+ const bioObj = {
+     Name: 'Shaheer',
+     age: 14,
+     education: 'Grade 9',
+     phonenumber: 923362009744,
+     email: 'shaheer7w@gmail.com'
+ }
+
+ const biodata =`
+   <p>Name:${bioObj.Name}</p> <br>
+   <p>Age:${bioObj.age}</p>  <br>
+   <p>Education:${bioObj.education}</p> <br>
+     <p>Phone:${bioObj.phonenumber}</p> <br>
+    <p>email:<a>${bioObj.email}</a></p> <br>
+ `
+
+ document.write(biodata)
+ Q2
+ var a = "Muhammad"
+
+var abc;
+
+ var a = 'faraz'
+
+ console.log(a);
+ let a = "Muhammad"
+
+ let abc;
+
+ let a = 'faraz'
+
+ console.log(a);
+
+const a = "Muhammad"
+
+const abc;
+
+const a = 'faraz'
+
+console.log(a);
