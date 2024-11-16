@@ -1,0 +1,112 @@
+/ Advance Js //   
+// Var / Let / Const //
+
+// let firstNum =456
+// {
+//     let firstNum =123
+//     console.log(firstNum);    
+// }
+// console.log(firstNum);
+// const firstNum =123
+
+// {
+//     const firstNum =456
+//     console.log(firstNum);
+// }
+// console.log(firstNum);
+
+
+// function nums(){
+//     var cons = 123
+//     console.log(cons);
+// }
+
+// nums()
+
+// function nums(){
+//     let cons = 456
+//     console.log(cons);
+// }
+// nums()
+
+// function nums(){
+//     const cons = 456
+//     console.log(cons);
+// }
+// nums()
+
+
+// var obj ={
+//     name:'shaheer',
+//     age:14
+// }
+
+// obj = "someone"
+
+// console.log(obj);
+
+// let obj ={
+//     name:'shaheer',
+//     age:14
+// }
+
+// obj = "someone"
+
+// console.log(obj);
+
+// const obj ={
+//     name:'shaheer',
+//     age:14
+// }
+
+// obj = "someone"
+
+// console.log(obj);
+
+// console.log(somename);
+
+// var somename = "somename"
+
+// console.log(somename);
+
+// let somename = "somename"
+
+// console.log(somename);
+
+// const somename = "somename"
+
+// welcome();
+
+// function welcome(){
+//     alert('welcome user')
+// }
+
+// welcome();
+
+// var welcome =function(){
+//     alert('welcome user')
+// }
+
+// welcome();
+
+// let welcome =function(){
+//     alert('welcome user')
+// }
+
+// welcome();
+
+// const welcome =function(){
+//     alert('welcome user')
+// }
+
+// REDECLARE
+
+// var num = "huzaifa"  
+// var num = "hamza"
+// console.log(num)
+
+// REASSIGN
+
+// var num = "huzaifa"  
+//  num = "hamza "
+//  console.log(num)
