@@ -1,0 +1,34 @@
+Template Literals
+Multiplicationn Program
+const userValue = +prompt("Enter any number")
+const userValrange = +prompt("Enter Range")
+for (const i = 1; i<= userValrange; i++) {
+    document.write(`${userValue} x ${i} = ${userValue * userValrange}<br>`)}
+Ternary Operators
+let age = +prompt("enter your age")
+let check =  age === 18 ?'Allow': 'Not allowed'
+alert(check)
+let age = +prompt("enter your age")
+let gender = prompt('enter your gender')
+let check = age >= 18 ? gender <= 'male' ? 'Alow':'gender not match':"age not match"
+console.log(check);
+Percentage Program
+const userScore = +prompt('Enter Your Score')
+if(userScore<=100 &&userScore>=90){
+    alert('You are passed')
+}
+else if(userScore<=89 && userScore>=80){
+    alert('You are failed')
+}else{
+    alert("get out lil bro")
+}
+let check = userScore<=100 &&userScore>=90? 'you scored A1': userScore<=89 && userScore>=80? 'you scored A':
+userScore<=79 &&userScore>=70? 'you scored B': userScore<=69 && userScore>=60? 'you scored D': userScore<=59 &&userScore>=50? 'you scored f':
+'You are Extra smart'
+alert(check)
+
+const obj ={
+    name: 123,
+    Age:123
+}
+console.log(Object.values(obj.Age));
