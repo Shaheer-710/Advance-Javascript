@@ -1,0 +1,41 @@
+const markSheet =[
+    {
+        "business":24,
+        "accounting":25,
+        "econmics": 25,
+        "english":23,
+        'math':25,
+    }
+]
+
+let totalMarks=0;
+
+for (const business in markSheet[0]) {
+    totalMarks += markSheet[0][business];
+}
+for (const accounting in markSheet[1]) {
+    totalMarks += markSheet[1][accounting];
+  }
+  for (const econmics in markSheet[2]) {
+    totalMarks += markSheet[2][econmics];
+  }
+  for (const english in markSheet[3]) {
+    totalMarks += markSheet[3][english];
+  }
+  for (const math in markSheet[4]) {
+    totalMarks += markSheet[4][math];
+  }
+
+
+const percentage = totalMarks/125*100;
+
+const displaySheet=`
+      <h1 style="text-align:center;font-size:50px">Result</h1>
+      <br>
+      <h3>Total Marks Obtained = ${totalMarks}</h3>
+      <h3>Percentage = ${percentage}</h3>
+      <h3>Grade = A*</h3>
+`
+
+
+document.write(displaySheet)
