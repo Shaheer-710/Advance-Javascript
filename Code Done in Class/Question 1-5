@@ -1,0 +1,81 @@
+Question
+
+
+Declare a variable using var outside of any function or block.
+● Declare a variable using let outside of any function or block.
+● Declare a variable using const outside of any function or block.
+● Log all three variables to the console.
+● Are they accessible globally?
+
+
+var studentId = "cdc471"
+let student2Id = "bdc561"
+const student3Id = "yudc471"
+
+console.log(studentId);
+console.log(student2Id);
+console.log(student3Id);
+
+Answer
+yes they all are accesible globally
+
+// Question 2
+function myprac(){
+     var stdData = "bre456"
+}
+
+console.log(stdData);
+
+
+function my2prac(){
+    let std2Data = "bre456"
+}
+
+console.log(std2Data);
+
+
+function my3prac(){
+    const std3Data = "bre456"
+}
+
+console.log(std3Data);
+
+ANSWER
+They can not be consoled
+
+Question 3
+
+if(true){
+     var AppName = "Python"
+     let App2Name = "Javascript"
+     const App3Name = "Html"
+}
+
+console.log(AppName);
+console.log(App2Name);
+console.log(App3Name);
+
+Answer
+Only  var can be calledoutside the if
+
+Queston 4
+
+console.log(myData);
+
+var myData = "b45676"
+
+Answer
+Undeeffined
+
+Question 5
+
+console.log(My_Data);
+
+let My_Data = "bdc471"
+
+console.log(myInfo);
+
+let myInfo = "b34c471"
+
+Answer
+Uncaught Reference Error
