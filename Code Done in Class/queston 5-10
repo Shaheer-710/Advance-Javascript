@@ -1,0 +1,119 @@
+// Question 5
+
+// console.log(My_Data);
+
+// let My_Data = "bdc471"
+
+// console.log(myInfo);
+
+// let myInfo = "b34c471"
+
+// Answer
+// Uncaught Reference Error
+
+// Queston 6
+
+// var it = 'mynme'
+// var it = 'your name'
+// console.log(it);
+
+// let it = 'mynme'
+// let it = 'your name'
+// console.log(it);
+
+// const it = 'mynme'
+// const it = 'your name'
+// console.log(it);
+
+// Answer
+//  Only var can be redeclared
+
+// Question 7
+
+// const it = 'mynme' 
+// it = 'your name'
+// console.log(it);
+
+// let it = 'mynme'
+// it = 'your name'
+// console.log(it);
+
+// var it = 'mynme'
+// it = 'your name'
+// console.log(it);
+
+// Answer
+//  only var and let can be reassigned
+
+//  Question 8
+
+// console.log(stdeclare);
+
+
+// function Declaration() {
+//     let stdeclare = "i  will redeclare this above"
+// }
+// Declaration()
+
+// console.log(stde2clare);
+
+
+// function Declaration2() {
+//     const stde2clare = "i  will redeclare this above"
+// }
+// Declaration2()
+
+// Answer
+// While let and const declarations are hoisted to the 
+// top of their scope, their initialization is not. This means 
+// the variable exists, but its value is not yet defined.
+
+// QUESTION 9
+
+// Var can be useful alongside its limitations in specific legacy code
+
+// function myFunction() {
+//     for (var i = 0; i < 5; i++) {
+//       console.log(i);
+//     }
+//     console.log(i); // i is accessible here, even after the loop
+//   }
+  
+//   myFunction();
+
+// let is ideal for declaring variables that need to be reassigned within a block scope.
+
+// let count = 0;
+
+// function increment() {
+//   let count = 0; // New block scope for count
+//   count++;
+//   console.log(count); // Output: 1
+// }
+
+// increment();
+// console.log(count); // Output: 0 (global count remains unchanged)
+
+// const is perfect for declaring variables that should not be reassigned throughout their scope
+
+// const PI = 3.14159;
+
+// function calculateArea(radius) {
+//   const area = PI * radius * radius;
+//   return area;
+// }
+
+// const circleArea = calculateArea(5);
+// console.log(circleArea); // Output: 78.53975
+
+// Question 10
+
+// const firstName = prompt('Enter your name')
+// const lastName = prompt('Enter your lastname')
+
+// const fullname =  `
+// ${firstName}  ${lastName}
+// `
+
+// console.log(fullname);
+
