@@ -1,0 +1,52 @@
+// Question 11
+
+// let adress = `
+// azizabad
+// karachi
+// `
+// console.log(adress);
+
+// Question 12
+
+// let number = +prompt('enter any number')
+// let range = +prompt('Enter range')
+
+//     let sum = `
+//     ${number* range}
+//     `
+//     console.log(sum);
+
+
+// Question 13
+
+// function multiplyNumbers(num1, num2) {
+//     return num1 * num2;
+//   }
+  
+//   const number1 = 5;
+//   const number2 = 10;
+  
+//   const product = multiplyNumbers(number1, number2);
+  
+//   console.log(`The product of ${number1} and ${number2} is ${product}`);
+
+// Question 14
+
+// function logTag(strings, ...expressions) {
+//     console.log(strings[0] + expressions[0] + strings[1]);
+//   }
+  
+//   const name = "Alice";
+//   logTag`Hello, ${name}!`;
+
+// Question 15
+
+
+// function uppercase() {
+//     let name = "alice";
+//     let uppname = name.toUpperCase();
+//     console.log(`Formatted name is ${uppname}`);
+//   }
+  
+//   uppercase();
+
