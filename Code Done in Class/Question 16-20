@@ -1,0 +1,69 @@
+// Question 16
+
+// const currentHour = new Date().getHours();
+// const message = console.log(`It's ${currentHour < 12 ? 'Morning' : 'Afternoon'}!`);
+
+// console.log(message);
+
+// Question 17
+
+// const fruitsArr = [
+//     'apple',
+//     'mango',
+//     'pineaplle',
+// ]
+
+// const formatedarr = console.log(`
+// ${fruitsArr[0]}
+// ${fruitsArr[1]}
+// ${fruitsArr[2]}
+//     `);
+
+// Question 18
+
+// const string_with_backtick = "`This is a string with a backtick:`"
+// console.log(string_with_backtick)
+
+// Question 19
+
+// const tableHTML = `
+// <table>
+//   <thead>
+//     <tr>
+//       <th>Name</th>
+//       <th>Age</th>
+//       <th>City</th>
+//     </tr>
+//   </thead>
+//   <tbody>
+//     <tr>
+//       <td>Alice</td>
+//       <td>30</td>
+//       <td>New York</td>
+//     </tr>
+//     <tr>
+//       <td>Bob</td>
+//       <td>25</td>
+//       <td>Los Angeles</td>
+//     </tr>
+//   </tbody>
+// </table>
+// `;
+
+// console.log(tableHTML);
+
+// Question 20
+
+// const age = +prompt('Enter your age')
+
+// const canVote = age>=18?  'You are alllowed to vote' : 'you are no allowed to vote'
+
+// console.log(canVote);
+
+// Question 21
+
+// const number = +prompt('enter a number')
+
+// const EvenOrOdd = number % 2 ===  0 ? `${number} is even `: `${number} is odd`
+
+// console.log(EvenOrOdd);
