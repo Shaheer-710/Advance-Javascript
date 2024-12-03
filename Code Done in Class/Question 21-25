@@ -1,0 +1,44 @@
+// Question 21
+
+// const number = +prompt('enter a number')
+
+// const EvenOrOdd = number % 2 ===  0 ? `${number} is even `: `${number} is odd`
+
+// console.log(EvenOrOdd);
+
+// Question 22
+
+// const score = +prompt('Enter your score')
+
+// const result = score >= 90 ? "Your grade is A" : score >= 80 ? 'your grade is B' : score >= 70 ? 'your grade is C' : score >= 60 ? 'Your grade is D' : 'You are failed'
+
+// console.log(result);
+
+// Question 23
+
+// let isLoggedIn = true; 
+
+// let statusMessage = isLoggedIn ? "Welcome back!" : "Please log in";
+
+// console.log(statusMessage);
+
+// Question 24
+
+// const isMember = prompt('Are you a member')
+// const purchaseAmount = +prompt('Enter Purchase amount')
+
+// const discount = isMember === 'Yes'.toLowerCase() &&  purchaseAmount >= 100 ? `yo get a discont of ${purchaseAmount/100*10}`: 'you dont get a discont'
+
+// console.log(discount);
+
+// Question 25
+
+function maxValue(a, b) {
+    return a > b ? a : b;
+  }
+  
+  let num1 = 10;
+  let num2 = 25;
+  
+  let max = maxValue(num1, num2);
+  console.log("The maximum value is:", max);
