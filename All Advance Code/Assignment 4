@@ -1,0 +1,64 @@
+const arrays =[
+    42,
+    true,
+    'Hello World',
+    {
+        name: 'Jhon',
+        age: 45,
+        isStudent:false,
+    },
+    false,
+    3.14,
+    'Javascript is fun'
+]
+
+// const arr1 = arrays.map((string)=>{
+//           return typeof string === 'object' ? JSON.stringify(string) :String(string)
+// })
+
+
+// const arr2 = arrays.filter((number)=>{
+//     return typeof number === 'number'
+// })
+
+// console.log(arr2);
+
+// const arr3 = arrays.forEach(element=>{
+//     console.log(typeof element);
+    
+// })
+
+// const arr4 = arrays.reduce((sum, value) => {
+//     if (typeof value === 'number') {
+//       return sum + value;
+//     }
+//     return sum;
+//   }, 0);
+  
+//   console.log(arr4);
+
+// const arr5 = arrays.find(item => {
+//     return typeof item === 'boolean'
+// })
+
+// console.log(arr5);
+
+
+// const arr6 = arrays.findIndex(item => {
+//     return typeof item === 'object'
+// })
+
+// console.log(arr6);
+
+// const arr7 = arrays.some(item =>{
+//     return typeof item === 'number'
+// })
+
+
+// console.log(arr7);
+
+// const arr8 = arrays.every(element =>{
+//     return typeof element === 'string'
+// })
+
+// console.log(arr8);
