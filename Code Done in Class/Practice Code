@@ -1,0 +1,44 @@
+// function constructor
+
+// function Randomm(name ,classname,area ){
+//     this.stdName = name,
+//     this.stdclass = classname,
+//     this.stdArea = area
+//     this.getName = function(){
+//         return this.stdName
+//     }
+// }
+
+// const std =new Randomm('Shaheer', 'Grade 9-B' , 'Credo High School')
+// const std1 = new Randomm('Amir' , 'Grade 10' , 'Credo Campus2')
+// console.log(std);
+// console.log(std1);
+
+// Class Constructor
+
+// class Randomm{
+//     constructor(name2 ,classname,area){
+
+    
+//     this.stdName = name2,
+//     this.stdclass = classname,
+//     this.stdArea = area
+
+// // }
+// }
+// const std3 =new Randomm('Shaheer', 'Grade 9-B' , 'Credo High School')
+// console.log(std3);
+
+// class Randomm2 extends Randomm{
+//     constructor(class5, iDREADABLE , name2 , classname,area){
+//         super();
+//         this.stdName = name2,
+//         this.stdclass = classname,
+//         this.stdArea = area
+//     this.stdclass = class5,
+//     this.stdArea = iDREADABLE;
+// };
+// }
+
+// std4 =new Randomm2('gRADE2', '4024909087654344')
+// console.log(std4);
