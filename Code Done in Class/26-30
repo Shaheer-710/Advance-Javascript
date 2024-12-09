@@ -1,0 +1,44 @@
+// Question 26
+
+// const numbers = [0,1,2,3,4,5,6,7,8,9,10]
+
+// const doubleOrtriplenums = numbers.map(number =>[
+//     number % 2 === 0 ? number*2 : number/3
+// ])
+
+// console.log(doubleOrtriplenums);
+
+// Question27
+
+// const arrayOfstrings=['shaheer' , 'credohighschool' , 'grade9-B commerce' , 'apple' , 'banana' , 'mountaindew', 'pep']
+
+// const arrayOfStrings = ['shaheer', 'credohighschool', 'grade9-B commerce', 'apple', 'banana', 'mountaindew', 'pe'];
+
+// const arrayWithStrings3 = arrayOfStrings.filter(element => element.length > 3);
+
+// console.log(arrayWithStrings3);
+
+// Question 28
+
+// const arrayOfstrings=['shaheer' , 'credohighschool' , 'grade9-B commerce' , 'apple' , 'banana' , 'mountaindew', 'pep']
+
+// const coopiedArray = [...arrayOfstrings, 1]
+
+// console.log(coopiedArray);
+
+// Question 29
+
+// const array1=['shaheer' , 'credohighschool' ,]
+// const array2 = ['shaheer', 'hamza']
+
+// const mergedarray = [...array1,...array2]
+
+// console.log(mergedarray);
+
+// Question 30
+
+// const arrayOfnumbers = [1,2,3,4] 
+
+// const newArray = [0 , ...arrayOfnumbers ,5]
+
+// console.log(newArray);
