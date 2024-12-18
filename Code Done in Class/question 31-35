@@ -1,0 +1,61 @@
+// Question 31
+
+// const originalObject = {
+//         name1 : 'shaheer',
+//         hours : 23
+// }
+
+// const copiedObject ={
+//     ...originalObject,
+// }
+
+// copiedObject.hours = 24
+
+// console.log(copiedObject);
+// console.log(originalObject);
+
+// Question 32
+
+// const obj1 = { a: 1, b: 2 };
+// const obj2 = { b: 3, c: 4 };
+
+// const mergedObj = { ...obj1, ...obj2 };
+
+// Question 33
+
+// user={
+//     name: 'Shaheer',
+//     age:24,
+//     email:'shaheer7w@gmail.com'
+// }
+
+// updatedUser= {
+//     ...user, 
+//     email: 'shaheer8w@gmail.com',
+//     address: '123 Main St'
+// }
+
+// console.log(updatedUser);
+// console.log(user);
+
+// Question 34
+
+// function sum(a, b, c) {
+//     return a + b + c;
+//   }
+  
+//   const numbers = [1, 2, 3];
+  
+//   const result = sum(...numbers); 
+  
+//   console.log(result); 
+
+// Question 35
+
+// const sum = (a, b, c) => {
+//     return a + b + c;
+//   }
+//   array = [1,2,3]
+//   const result = sum(...array); 
+
+//   console.log(result);
