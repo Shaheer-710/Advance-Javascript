@@ -1,38 +1,39 @@
-// Task 1 
+let urdu = 44
+let pst = 45
+let islamiat = 40
+let maxmarks = 150
 
-// let name = "Shaheer"
-// let age = 16
-// let occupation = "web developer"
-// let email = 'shaheer7w@gmail.com'
-// let phone = "021322323282"
+const totalmarks = ()=>{
+      let total = (urdu+pst+islamiat) 
+      console.log(total);
+      return total
+}
 
+totalmarks()
 
-// let data = `Name:${name} <br>
-//              <hr>
-//                 Age:${age} <br>
-//                 <hr>
-//                 Occupation:${occupation} <br>
-//                 <hr>
-//                 Email:${email}<br>
-//                 <hr>
-//                 Phone:${phone} <br>`
+const calculatepercentage = ()=>{
+let total = totalmarks()
+  let percentage =  (total / maxmarks )*100
+  console.log(percentage);
+  return percentage
+}
 
-// document.write(data)
+calculatepercentage()
 
-// Task 2
+const marksheet = ()=>{
+    let total = totalmarks()
+    let percentage = calculatepercentage()
+    let marksheet1 =( `<h3>Marksheet</h3>
+        <p><strong>Subject</strong> | <strong>Marks Obtained</strong></p>
+        <hr>
+        <p>Urdu: ${urdu}</p>
+        <p>PST: ${pst}</p>
+        <p>Islamiat: ${islamiat}</p>
+        <hr>
+        <p><strong>Total Marks:</strong> ${total} / ${maxmarks}</p>
+        <p><strong>Percentage:</strong> ${percentage}</p>
+    ` )
+                      document.write(marksheet1)
+}
 
-// var name = "Ahmed"
-// var name="ali"     // CAN BE REASSIGNED
-// let work = "full stack developer"
-// // let work = "full stack developer"  can not be reasigned and shows error
-// work = 'web designer' //can be reasgned if the variable name is directed
-// const salary = "1233333" 
-// // const salary = "dsdd"  can not be reasigned and shows error
-// salary=323234 //Assignment to constant variable. can not be reasigned
-
-
-// console.log(name);
-// console.log(work)
-// console.log(salary)
-
-
+marksheet()
